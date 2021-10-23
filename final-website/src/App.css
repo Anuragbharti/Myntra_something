@@ -13,7 +13,11 @@
   padding: 0.5em;
   background-color: white;
   font-weight: bold;
+<<<<<<< HEAD
   color: #ff0b5c;
+=======
+  color: #f13ab1;
+>>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
 }
 .navbar > a {
   margin: 1%;
@@ -52,7 +56,11 @@
     z-index: 1;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     background-color: #ff0b7d;
+=======
+    background-color: #f13ab1;
+>>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -152,7 +160,7 @@
     align-items: center;
     padding-bottom: 2vw;
     padding-top: 2vw;
-    /* background-color: #0b6aff; */
+    /* background-color: #f13ab1; */
     /* background:  #f5d1d1; */
   }
 
@@ -169,7 +177,11 @@
     padding: 0.5em;
     background-color: white;
     font-weight: bold;
+<<<<<<< HEAD
     color: #ff0ba1;
+=======
+    color: #f13ab1;
+>>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
   }
 
   .logo {
@@ -184,7 +196,11 @@
     z-index: 1;
     display: block;
     align-items: center;
+<<<<<<< HEAD
     background-color: #ff0b91;
+=======
+    background-color: #f13ab1;
+>>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -260,7 +276,11 @@
   border: none;
   padding: 0.8em;
   width: 100%;
+<<<<<<< HEAD
   background-color: #ff0b7d;
+=======
+  background-color: #f13ab1;
+>>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
   font-weight: bold;
   color: white;
   /* height: auto; */
@@ -286,7 +306,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0b6aff;
+  background: #f13ab1;
   border-radius: 5px;
 }
 

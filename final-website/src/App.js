@@ -151,8 +151,13 @@ class App extends Component {
               <div className="navbar-mobile-column">
                 <img
                   className="logo-img-mobile"
+<<<<<<< HEAD
                   // src={require("./resources/shopeasy_logo.png")}
                   alt="Myntra"
+=======
+                  src={require("./resources/mlogo.svg")}
+                  alt="FIS"
+>>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
                 />
                 <div className="navbar-mobile-buttons">
                   {this.state.user ? (
@@ -175,8 +180,8 @@ class App extends Component {
                       </button>
                     </Link>
                   )}
-                  <Link to="Contact">
-                    <button className="bt-mobile home-login">CONTACT US</button>
+                  <Link to="">
+                    <button className="bt-mobile home-login"></button>
                   </Link>
                 </div>
               </div>
@@ -203,11 +208,11 @@ class App extends Component {
           <MediaQuery minDeviceWidth={600}>
             <div className="navbar">
               <img
-                src={require("./resources/logo.png")}
+                src={require("./resources/mlogo.svg")}
                 width="3%"
                 className="main-page-logo"
               ></img>
-              <div className="logo">MFR(Myntra For Retailers)</div>
+              <div className="logo">MFR</div>
 
               <DataSearch
                 className="datasearch"
@@ -239,8 +244,8 @@ class App extends Component {
                   <button className="navbar-buttons">LOGIN / SIGNUP</button>
                 </Link>
               )} */}
-              <Link to="Contact">
-                <button className="navbar-buttons">CONTACT US</button>
+              <Link to="">
+                <button className="navbar-buttons"></button>
               </Link>
             </div>
           </MediaQuery>

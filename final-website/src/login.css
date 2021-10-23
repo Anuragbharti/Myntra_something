@@ -4,7 +4,7 @@
 
 .lbody {
   font-family: "Roboto", sans-serif;
-  background: #007bff;
+  background: #f13ab1;
   background: linear-gradient(to right, #0062E6, #33AEFF);
   display: flex;
   height: 100%;
@@ -52,7 +52,7 @@
   margin-top: 0.5em;
   color: white;
   display: block;
-  background-color: #007bff;
+  background-color: #f13ab1;
   font-weight: bold;
 }
 
@@ -64,7 +64,7 @@
   width: 100%;
   margin: 1.5em 0 2.5em 0;
   color: white;
-  background-color: #007bff;
+  background-color: #f13ab1;
   font-weight: bold;
   margin-top: 1.5em;
 }
