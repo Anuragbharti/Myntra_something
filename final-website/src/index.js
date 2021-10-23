@@ -10,8 +10,8 @@ ReactDOM.render(
   <Router>
     <div>
       <Route exact path="/" component={App} />
-      <Route path="/Login" component={Login} />
-      <Route path="/Wishlist" component={Wishlist}/>
+      {/* <Route path="/Login" component={Login} />
+      <Route path="/Wishlist" component={Wishlist}/> */}
     </div>
   </Router>,
   document.getElementById("root")

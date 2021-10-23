@@ -102,42 +102,42 @@ class App extends Component {
     });
   }
 
-  addToWishList(e, item) {
-    e.preventDefault();
-    console.log("user id: " + fire.auth().currentUser.uid);
-    var user_id = fire.auth().currentUser.uid;
-    var item_id = item._id;
-    var userRef = fire
-      .firestore()
-      .collection("users")
-      .doc(user_id)
-      .collection("wishlist")
-      .doc(item_id);
+  // addToWishList(e, item) {
+  //   e.preventDefault();
+  //   console.log("user id: " + fire.auth().currentUser.uid);
+  //   var user_id = fire.auth().currentUser.uid;
+  //   var item_id = item._id;
+  //   var userRef = fire
+  //     .firestore()
+  //     .collection("users")
+  //     .doc(user_id)
+  //     .collection("wishlist")
+  //     .doc(item_id);
 
-    userRef.get().then((docSnapshot) => {
-      if (docSnapshot.exists) {
-        this.showToast(
-          "This element is already present in the wishlist",
-          "info"
-        );
-      } else {
-        userRef
-          .set({
-            name: item.product_name,
-            image_url: item.image,
-            source: item.source,
-            price: item.price,
-            product_url: item.url,
-          })
-          .then(function() {
-            console.log("Document successfully written!");
-          }, this.showToast("Item successfully added to wishlist", "success"))
-          .catch(function(error) {
-            console.error("Error writing document: ", error);
-          });
-      }
-    });
-  }
+  //   userRef.get().then((docSnapshot) => {
+  //     if (docSnapshot.exists) {
+  //       this.showToast(
+  //         "This element is already present in the wishlist",
+  //         "info"
+  //       );
+  //     } else {
+  //       userRef
+  //         .set({
+  //           name: item.product_name,
+  //           image_url: item.image,
+  //           source: item.source,
+  //           price: item.price,
+  //           product_url: item.url,
+  //         })
+  //         .then(function() {
+  //           console.log("Document successfully written!");
+  //         }, this.showToast("Item successfully added to wishlist", "success"))
+  //         .catch(function(error) {
+  //           console.error("Error writing document: ", error);
+  //         });
+  //     }
+  //   });
+  // }
 
   render() {
     return (
@@ -151,22 +151,19 @@ class App extends Component {
               <div className="navbar-mobile-column">
                 <img
                   className="logo-img-mobile"
-<<<<<<< HEAD
                   // src={require("./resources/shopeasy_logo.png")}
                   alt="Myntra"
-=======
-                  src={require("./resources/mlogo.svg")}
+                  src={require("./resources/logo.png")}
                   alt="FIS"
->>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
                 />
                 <div className="navbar-mobile-buttons">
-                  {this.state.user ? (
+                  {/* {this.state.user ? (
                     <Link to="/Wishlist">
                       <button className="bt-mobile home-login">WISHLIST</button>
                     </Link>
-                  ) : null}
+                  ) : null} */}
 
-                  {this.state.user ? (
+                  {/* {this.state.user ? (
                     <button
                       className="bt-mobile home-login"
                       onClick={this.logout}
@@ -179,10 +176,10 @@ class App extends Component {
                         LOGIN / SIGNUP
                       </button>
                     </Link>
-                  )}
-                  <Link to="">
+                  )} */}
+                  {/* <Link to="">
                     <button className="bt-mobile home-login"></button>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -208,11 +205,11 @@ class App extends Component {
           <MediaQuery minDeviceWidth={600}>
             <div className="navbar">
               <img
-                src={require("./resources/mlogo.svg")}
+                src={require("./resources/logo.png")}
                 width="3%"
                 className="main-page-logo"
               ></img>
-              <div className="logo">MFR</div>
+              <div className="logo">Myntra For Retailers</div>
 
               <DataSearch
                 className="datasearch"
@@ -228,25 +225,6 @@ class App extends Component {
                 iconPosition="left"
                 filterLabel="search"
               />
-
-              {/* {this.state.user ? (
-                <Link to="/Wishlist">
-                  <button className="navbar-buttons">WISHLIST</button>
-                </Link>
-              ) : null} */}
-
-              {/* {this.state.user ? (
-                <button className="navbar-buttons" onClick={this.logout}>
-                  LOGOUT
-                </button>
-              ) : (
-                <Link to="/Login">
-                  <button className="navbar-buttons">LOGIN / SIGNUP</button>
-                </Link>
-              )} */}
-              <Link to="">
-                <button className="navbar-buttons"></button>
-              </Link>
             </div>
           </MediaQuery>
 

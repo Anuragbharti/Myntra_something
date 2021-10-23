@@ -13,14 +13,11 @@
   padding: 0.5em;
   background-color: white;
   font-weight: bold;
-<<<<<<< HEAD
   color: #ff0b5c;
-=======
-  color: #f13ab1;
->>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
 }
-.navbar > a {
-  margin: 1%;
+.navbar {
+  margin: 0%;
+  padding: .9%;
 }
 .leftSidebar > div {
   margin: 10px 0;
@@ -29,8 +26,6 @@
 .product-title {
   white-space: initial;;
   word-wrap: break-word;
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
   margin: 2%;
   color: black;
 }
@@ -56,11 +51,7 @@
     z-index: 1;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     background-color: #ff0b7d;
-=======
-    background-color: #f13ab1;
->>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -177,11 +168,7 @@
     padding: 0.5em;
     background-color: white;
     font-weight: bold;
-<<<<<<< HEAD
     color: #ff0ba1;
-=======
-    color: #f13ab1;
->>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
   }
 
   .logo {
@@ -196,11 +183,7 @@
     z-index: 1;
     display: block;
     align-items: center;
-<<<<<<< HEAD
     background-color: #ff0b91;
-=======
-    background-color: #f13ab1;
->>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -276,11 +259,8 @@
   border: none;
   padding: 0.8em;
   width: 100%;
-<<<<<<< HEAD
   background-color: #ff0b7d;
-=======
   background-color: #f13ab1;
->>>>>>> aaedf47b1b6f9f26b4dbf8fa5c48041903aab532
   font-weight: bold;
   color: white;
   /* height: auto; */
@@ -314,10 +294,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-/* 
-a.css-iioxla-Button {
-  display: none;
-} */
+
 @media all and (max-width: 600px) {
   .css-yw1mgn-Flex-leftLabel {
     margin-top: 15%;
@@ -325,4 +302,9 @@ a.css-iioxla-Button {
   a.css-149suws-Card {
     margin: 0%;
   }
+}
+
+
+.rheostat-progress{
+  background-color: #e63d7d !important;
 }
