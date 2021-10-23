@@ -1,0 +1,3 @@
+To calculate the blog score of the categories given in "./Dict/Required/" directory,
+run the command 
+```python driver.py``` from the command line while being in the blog_score directory.

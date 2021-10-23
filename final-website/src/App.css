@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.suggestionlist {
+  color: #424242;
+  width: 90%;
+  /* margin-left: 5%; */
+}
+.navbar-buttons {
+  border-radius: 0.5em;
+  cursor: pointer;
+  border: none;
+  width: fit-content;
+  padding: 0.5em;
+  background-color: white;
+  font-weight: bold;
+  color: #0b6aff;
+}
+.navbar > a {
+  margin: 1%;
+}
+.leftSidebar > div {
+  margin: 10px 0;
+}
+
+.product-title {
+  white-space: initial;;
+  word-wrap: break-word;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  margin: 2%;
+  color: black;
+}
+.price {
+  margin-top: 1%;
+  margin-right: 0%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  color: green;
+}
+.source {
+  margin-left: 2%;
+  margin-bottom: 4%;
+  text-transform: capitalize;
+}
+
+@media all and (min-width: 600px) {
+  .navbar {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: #0b6aff;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+  }
+
+  .display {
+    display: flex;
+    margin-top: 80px;
+  }
+
+  .datasearch {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    min-width: 30%;
+    height: auto;
+  }
+
+  .datasearch .searchbox {
+    /* min-width: 400px;
+    border-radius: 30px;
+    padding: 5px 16px 5px 30px;
+    color: #c4c4c4;
+    color: black; */
+    border-radius: 30px;
+    border: white 3px solid;
+    width: 100%;
+    /* padding: 5px 16px 5px 30px; */
+    /* color: #c4c4c4; */
+    color: black;
+  }
+
+  .logo {
+    margin-left: 16px;
+    font-size: 28px;
+    float: left;
+    font-family: "Abril Fatface", cursive;
+    border: #424242;
+  }
+
+  .leftSidebar {
+    width: 320px;
+    height: 92%;
+    padding: 20px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    border-right: 1px solid #f0f0f0;
+  }
+  .mainBar {
+    width: calc(100% - 320px);
+    position: relative;
+    left: 320px;
+    padding: 0px 30px;
+    background-color: #fefefe;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .display {
+    margin-top: 100px;
+    display: flex;
+  }
+
+  .datasearch {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: fit-content;
+    height: auto;
+  }
+
+  .datasearch .searchbox {
+    /* min-width: 400px;
+    border-radius: 30px;
+    padding: 5px 16px 5px 30px;
+    color: #c4c4c4;
+    color: black; */
+    border-radius: 30px;
+    border: white 3px solid;
+    width: 100%;
+    /* padding: 5px 16px 5px 30px; */
+    /* color: #c4c4c4; */
+    color: black;
+  }
+
+  .search-bar {
+    width: 100%;
+    display: flex;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    height: fit-content;
+    align-items: center;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    /* background-color: #0b6aff; */
+    /* background:  #f5d1d1; */
+  }
+
+  .leftSidebar {
+    display: none;
+    width: 0%;
+  }
+
+  .bt-mobile {
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 0.5em;
+    background-color: white;
+    font-weight: bold;
+    color: #0b6aff;
+  }
+
+  .logo {
+    margin-bottom: 2%;
+  }
+
+  .navbar-mobile {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    align-items: center;
+    background-color: #0b6aff;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+  }
+
+  .navbar-mobile-column {
+    display: flex;
+    width: calc(100%);
+    box-shadow: 0 0 15px #022864;
+  }
+
+  .navbar-mobile-buttons {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    float: right;
+  }
+
+  .logo-img-mobile {
+    width: 10vw;
+    margin: 2vh;
+  }
+
+  .navbar-mobile .datasearch .mobilebox {
+    width: 95vw;
+    border-radius: 25px;
+    /* padding: 5px 16px 5px 30px; */
+    color: black;
+  }
+
+  .mainBar {
+    width: 100%;
+    position: relative;
+    padding: 0px 30px;
+    background-color: #fefefe;
+  }
+}
+
+.author .author-list {
+  max-height: 150px;
+}
+
+.result-data .result-image {
+  background-size: cover;
+  max-height: 200px;
+}
+
+.result-author {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-login {
+  margin-right: 0.5em;
+  width: max-content;
+}
+
+.source {
+  margin-bottom: 10em;
+}
+.source-website {
+  text-transform: capitalize;
+}
+.add-to-wishlist {
+  margin-top: 5%;
+  /* max-height: 2%; */
+}
+
+.bt-wishlist {
+  border-radius: 0.5em;
+  cursor: pointer;
+  border: none;
+  padding: 0.8em;
+  width: 100%;
+  background-color: #0b6aff;
+  font-weight: bold;
+  color: white;
+  /* height: auto; */
+}
+
+.wish-list {
+  width: inherit;
+}
+
+.main-page-logo {
+  margin-left: 3%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0b6aff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* 
+a.css-iioxla-Button {
+  display: none;
+} */
+@media all and (max-width: 600px) {
+  .css-yw1mgn-Flex-leftLabel {
+    margin-top: 15%;
+  }
+  a.css-149suws-Card {
+    margin: 0%;
+  }
+}

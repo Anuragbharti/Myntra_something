@@ -1,0 +1,2 @@
+## FlipBlitz Fashion Intelligence System
+

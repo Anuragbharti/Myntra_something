@@ -1,0 +1,46 @@
+Goldenrod Color
+Maroon Color
+Burgundy Color
+Taupe Color
+Tan Color
+Bronze Color
+Copper Color
+Burnt Sienna
+Khaki Color
+Olive Color
+Sienna Color
+Burnt Umber
+Chestnut Color
+Ecru Color
+Ochre Color
+Caramel Color
+Rust Color
+Golden Brown
+Russet Color
+Sand Color
+Buff Color
+Tawny Color
+Cocoa Brown
+Umber Color
+Camel Color
+Coffee Color
+Cordovan Color
+Citron Color
+Chocolate Color
+Mahogany Brown
+Wenge Color
+Walnut Brown
+Fulvous Color
+Raw Umber Color
+Liver Color
+Lion Color
+Redwood Color
+Vivid Color
+Fallow Color
+Rufous Color
+Tussock
+Bistre Color
+Harvest Gold Color
+Sepia Brown Color
+Beaver Brown
+Seal Color

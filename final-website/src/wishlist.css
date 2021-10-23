@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.wishlist-body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 2em 4em;
+  min-height: 100vh;
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+.top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3em;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+.top button {
+  margin: 1em 0;
+  width: 8em;
+  border: none;
+  border-radius: 0.5em;
+  color: #0055af;
+  font-weight: 700;
+  padding: 0.4em;
+  font-size: 1em;
+  /*background-color: #FEBD69;*/
+  background-color: white;
+  margin-left: 3em;
+  cursor: pointer;
+}
+
+.top button:hover {
+  background-color: #88c1ff;
+}
+.left {
+  display: flex;
+}
+.left a {
+  padding-right: 2em;
+}
+.left h1 {
+  padding-top: 0.5em;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.list {
+  padding: 0.3em;
+  background-color: #d4d4d4;
+  margin: 0 8em;
+  border-radius: 20px;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  margin: 1em;
+  background-color: white;
+  border-radius: 20px;
+}
+.product a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+  width: 100%;
+}
+.product-con {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 150px;
+}
+
+.product-image {
+  max-width: 150px;
+  max-height: 150px;
+}
+.details {
+  text-align: left;
+  padding: 1em;
+}
+.product button {
+  margin-right: 2em;
+  border: none;
+  /*background-color: #d4d4d4;*/
+  border-radius: 0.3em;
+}
+.product button:hover {
+  background-color: #d66f6f;
+}
+.close {
+  width: 60px;
+}
+@media (max-width: 1000px) {
+  .list {
+    background-color: #d4d4d4;
+    margin: 1em 2em 2em 2em;
+  }
+  .product a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  .product button {
+    margin: 0;
+  }
+  .product {
+    flex-direction: column;
+  }
+  .wishlist-body {
+    padding: 1em;
+  }
+  .right {
+    flex-direction: column;
+  }
+  .right h3 {
+    margin-bottom: 0;
+    margin-top: 2.2sem;
+  }
+  .right button {
+    font-size: 1em;
+  }
+  .left {
+    display: block;
+  }
+  .left h1 {
+    /*margin: 1em 0 0 0;*/
+    margin: 0;
+  }
+  .top {
+    width: 100%;
+    padding: 1em 2em 1em 0;
+    align-items: flex-start;
+  }
+}
+
+.wishlist-heading {
+  text-align: center;
+  color: white;
+}
