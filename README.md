@@ -10,7 +10,7 @@ User cannot get absolute score about trendiness of an object.
 There is no definite mechanism to determine the accuracy of our model with apparel trend curve.
 
 ### Authors       
-1.Pramitha         
+1.Pramita         
 2.Dibyendu
 
 
