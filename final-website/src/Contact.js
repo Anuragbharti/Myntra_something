@@ -116,13 +116,10 @@ class Contact extends Component {
             <img
               alt="FIS"
               className="clogo"
-              src={require("./resources/hummingbird.svg")}
+              src={require("./resources/mlogo.svg")}
             ></img>
           </Link>
           <p>
-            <h3>Team Name: FlipBlitz</h3>
-            <h3>Team Leader: Pratyush Goel</h3>
-            <h3>Team Member: Shrey Shah and Aditya Vishwakarma</h3>
           </p>
         </div>
 

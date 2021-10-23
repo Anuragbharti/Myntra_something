@@ -151,7 +151,7 @@ class App extends Component {
               <div className="navbar-mobile-column">
                 <img
                   className="logo-img-mobile"
-                  src={require("./resources/hummingbird.svg")}
+                  src={require("./resources/mlogo.svg")}
                   alt="FIS"
                 />
                 <div className="navbar-mobile-buttons">
@@ -175,8 +175,8 @@ class App extends Component {
                       </button>
                     </Link>
                   )}
-                  <Link to="Contact">
-                    <button className="bt-mobile home-login">CONTACT US</button>
+                  <Link to="">
+                    <button className="bt-mobile home-login"></button>
                   </Link>
                 </div>
               </div>
@@ -203,11 +203,11 @@ class App extends Component {
           <MediaQuery minDeviceWidth={600}>
             <div className="navbar">
               <img
-                src={require("./resources/hummingbird.svg")}
+                src={require("./resources/mlogo.svg")}
                 width="3%"
                 className="main-page-logo"
               ></img>
-              <div className="logo">FIS</div>
+              <div className="logo">MFR</div>
 
               <DataSearch
                 className="datasearch"
@@ -239,8 +239,8 @@ class App extends Component {
                   <button className="navbar-buttons">LOGIN / SIGNUP</button>
                 </Link>
               )} */}
-              <Link to="Contact">
-                <button className="navbar-buttons">CONTACT US</button>
+              <Link to="">
+                <button className="navbar-buttons"></button>
               </Link>
             </div>
           </MediaQuery>

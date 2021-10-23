@@ -13,7 +13,7 @@
   padding: 0.5em;
   background-color: white;
   font-weight: bold;
-  color: #0b6aff;
+  color: #f13ab1;
 }
 .navbar > a {
   margin: 1%;
@@ -52,7 +52,7 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    background-color: #0b6aff;
+    background-color: #f13ab1;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -152,7 +152,7 @@
     align-items: center;
     padding-bottom: 2vw;
     padding-top: 2vw;
-    /* background-color: #0b6aff; */
+    /* background-color: #f13ab1; */
     /* background:  #f5d1d1; */
   }
 
@@ -169,7 +169,7 @@
     padding: 0.5em;
     background-color: white;
     font-weight: bold;
-    color: #0b6aff;
+    color: #f13ab1;
   }
 
   .logo {
@@ -184,7 +184,7 @@
     z-index: 1;
     display: block;
     align-items: center;
-    background-color: #0b6aff;
+    background-color: #f13ab1;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -260,7 +260,7 @@
   border: none;
   padding: 0.8em;
   width: 100%;
-  background-color: #0b6aff;
+  background-color: #f13ab1;
   font-weight: bold;
   color: white;
   /* height: auto; */
@@ -286,7 +286,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0b6aff;
+  background: #f13ab1;
   border-radius: 5px;
 }
 
