@@ -13,7 +13,7 @@
   padding: 0.5em;
   background-color: white;
   font-weight: bold;
-  color: #0b6aff;
+  color: #ff0b5c;
 }
 .navbar > a {
   margin: 1%;
@@ -52,7 +52,7 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    background-color: #0b6aff;
+    background-color: #ff0b7d;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -169,7 +169,7 @@
     padding: 0.5em;
     background-color: white;
     font-weight: bold;
-    color: #0b6aff;
+    color: #ff0ba1;
   }
 
   .logo {
@@ -184,7 +184,7 @@
     z-index: 1;
     display: block;
     align-items: center;
-    background-color: #0b6aff;
+    background-color: #ff0b91;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.05rem;
@@ -193,7 +193,7 @@
   .navbar-mobile-column {
     display: flex;
     width: calc(100%);
-    box-shadow: 0 0 15px #022864;
+    box-shadow: 0 0 15px #640228;
   }
 
   .navbar-mobile-buttons {
@@ -260,7 +260,7 @@
   border: none;
   padding: 0.8em;
   width: 100%;
-  background-color: #0b6aff;
+  background-color: #ff0b7d;
   font-weight: bold;
   color: white;
   /* height: auto; */

@@ -151,8 +151,8 @@ class App extends Component {
               <div className="navbar-mobile-column">
                 <img
                   className="logo-img-mobile"
-                  src={require("./resources/hummingbird.svg")}
-                  alt="FIS"
+                  // src={require("./resources/shopeasy_logo.png")}
+                  alt="Myntra"
                 />
                 <div className="navbar-mobile-buttons">
                   {this.state.user ? (
@@ -203,11 +203,11 @@ class App extends Component {
           <MediaQuery minDeviceWidth={600}>
             <div className="navbar">
               <img
-                src={require("./resources/hummingbird.svg")}
+                src={require("./resources/logo.png")}
                 width="3%"
                 className="main-page-logo"
               ></img>
-              <div className="logo">FIS</div>
+              <div className="logo">MFR(Myntra For Retailers)</div>
 
               <DataSearch
                 className="datasearch"
