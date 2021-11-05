@@ -18,10 +18,12 @@ There is no definite mechanism to determine the accuracy of our model with appar
 $ git clone https://github.com/DbDibyendu/MFR.git
 $ cd MFR
 ``` 
-2. Install React and Nodejs
-3. Go inside final-website and run 
+2. Run the following code in the root directory i.e. final-website to install the project.
 ```
-$ cd final-website
+$npm install
+```
+3. To deploy it on local host run
+```
 $ npm start run 
 ```
 
