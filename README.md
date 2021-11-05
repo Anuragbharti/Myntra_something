@@ -15,12 +15,13 @@ There is no definite mechanism to determine the accuracy of our model with appar
 
 1.Clone this repository onto your system
 ```
-$ git clone https://github.com/DbDibyendu/Resume-Builder.git
-$ cd Resume-Builder
+$ git clone https://github.com/DbDibyendu/MFR.git
+$ cd MFR
 ``` 
 2. Install React and Nodejs
 3. Go inside final-website and run 
 ```
+$ cd final-website
 $ npm start run 
 ```
 
