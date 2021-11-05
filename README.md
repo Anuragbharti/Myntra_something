@@ -9,8 +9,17 @@ Compared to other machine learning models, SARIMA considers seasonal variation t
 User cannot get absolute score about trendiness of an object.
 There is no definite mechanism to determine the accuracy of our model with apparel trend curve.
 
-### Authors       
-1.Pramita         
-2.Dibyendu
+### Local System Setup
 
+##### Testing on local Server
+
+1.Clone this repository onto your system
+```
+$ git clone https://github.com/DbDibyendu/Resume-Builder.git
+$ cd Resume-Builder
+```          
+2. Go inside final-website and run 
+```
+$ npm start run 
+```
 
